@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+  }
+  .image-container {
+    margin-bottom: 20px;
+  }
+  img {
+    width: 300px; /* Adjust width */
+    height: auto; /* Keep original aspect ratio */
+    border-radius: 10px;
+    transition: 0.3s ease;
+    filter: grayscale(50%) brightness(90%);
+  }
+  img:hover {
+    filter: grayscale(0%) brightness(100%);
+  }
+  .caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
